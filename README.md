@@ -1,6 +1,6 @@
 # Booster Studio 隐藏 CLI 接口（逆向 + 实测验证）
 
-绕过 [Booster Studio](https://booster.tech) 图形界面，纯命令行驱动 RoboCup 3v3 仿真足球的全部关键接口：
+绕过 [Booster Studio](https://studio.booster.tech/) 图形界面，纯命令行驱动 RoboCup 3v3 仿真足球的全部关键接口：
 **Python → .agent 编译**、**自定义双方对战**、**无头（headless）模式**、**仿真容器多开**。
 
 > 官方确认这些功能由 CLI 实现，但未对外暴露接口。本项目通过逆向 Booster Studio 的
